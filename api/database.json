@@ -1,0 +1,16 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "8422 Johnson Pike",
+            "size": 450,
+            "accessibility": true
+        },
+        {
+            "id": 2,
+            "address": "209 Emory Drive",
+            "size": 300,
+            "accessibility": true
+        }
+    ]
+}
