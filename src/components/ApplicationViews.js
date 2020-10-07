@@ -2,6 +2,8 @@ import React from "react"
 import { Route } from "react-router-dom"
 import { Home } from "./Home"
 import { LocationList } from "./locations/LocationList"
+import { ProductList } from "./products/ProductList"
+
 
 export const ApplicationViews = (props) => {
     return (
@@ -17,10 +19,10 @@ export const ApplicationViews = (props) => {
             
             
             <Route path="/Products">
-                <ProductCard />
+                <ProductList />
             </Route>
 
         </>
     )
-    
+
 }
