@@ -12,5 +12,73 @@
             "size": 300,
             "accessibility": true
         }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Hard Candy"
+        },
+        {
+            "id": 2,
+            "type": "Gum"
+        },
+        {
+            "id": 3,
+            "type": "Chocolate"
+        },
+        {
+            "id": 4,
+            "type": "Sodas"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Werther's Original",
+            "productTypeId": 1,
+            "price": ".25"
+        },        
+        {
+            "id": 2,
+            "name": "Werther's Original",
+            "productTypeId": 1,
+            "price": ".25"
+        },        
+        {
+            "id": 3,
+            "name": "Juicy Fruit",
+            "productTypeId": 2,
+            "price": "1"
+        },        
+        {
+            "id": 4,
+            "name": "Double Mint",
+            "productTypeId": 2,
+            "price": "1"
+        },
+        {
+            "id": 5,
+            "name": "Hershey's Bar",
+            "productTypeId": 3,
+            "price": "2.25"
+        },        
+        {
+            "id": 6,
+            "name": "Dark Chocolate Bar",
+            "productTypeId": 3,
+            "price": "1.25"
+        },        
+        {
+            "id": 7,
+            "name": "Ale 81",
+            "productTypeId": 4,
+            "price": "1.25"
+        },        
+        {
+            "id": 7,
+            "name": "RC cola",
+            "productTypeId": 4,
+            "price": "1.25"
+        }
     ]
 }

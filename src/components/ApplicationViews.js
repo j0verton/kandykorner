@@ -15,10 +15,10 @@ export const ApplicationViews = (props) => {
                 <LocationList />
             </Route>
             
-            {/* 
+            
             <Route path="/Products">
                 <ProductCard />
-            </Route> */}
+            </Route>
 
         </>
     )
